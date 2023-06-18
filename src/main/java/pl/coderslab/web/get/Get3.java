@@ -18,6 +18,7 @@ public class Get3 extends HttpServlet {
             for(int row = 1; row <=10; row++){
                 for(int column = 1; column <= 5; column++){
                     response.getWriter().print(row * column + " ");
+
                 }
                 response.getWriter().println("\n");
             }
